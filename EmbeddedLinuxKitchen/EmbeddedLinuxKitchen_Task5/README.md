@@ -1,0 +1,2 @@
+1. Using buildroot to generate a raspberry pi 3b plus image with a systemv as init process, Make a script that prints to the stdout and set an IP for the device, and it gets executed when switching to run-level 4.![[Pasted image 20250212145352.png]]
+2. Using ssh to log into the rpi3b+. ![[Pasted image 20250212161222.png]]
