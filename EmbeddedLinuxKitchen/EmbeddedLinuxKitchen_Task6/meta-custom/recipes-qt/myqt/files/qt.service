@@ -1,0 +1,13 @@
+[Unit]
+Description = "Service for a simple Quick Qt6 application"
+Documentation = "https://www.github.com/Musa-Mahmoud/ITI_Qt.git;branch=main"
+Requires = weston.service
+
+[Service]
+Type = simple
+ExecStart = /usr/bin/appTask_01
+Restart = on-failure
+RestartSec = 3
+
+[Install]
+WantedBy = multi-user.target
